@@ -22,7 +22,7 @@ exports.create = async ctx => {
     ctx.ok(userSaved)
 }
 exports.update = async ctx => {
-    const { id } = ctx.params;
+    const { id } = ctx.user;
     let { firstname, lastname, password, admin } = ctx.request.body;
     password = utils.hashPassword(password);
     const userUpdated = await User.findByIdAndUpdate({ _id: id }, { $set: { firstname, lastname, password, admin } }, { new: true })
