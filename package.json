@@ -1,0 +1,34 @@
+{
+  "name": "projet-web-mobile-master2-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "@koa/cors": "^2.2.3",
+    "crypto": "^1.0.1",
+    "dotenv": "^6.2.0",
+    "jsonwebtoken": "^8.4.0",
+    "koa": "^2.7.0",
+    "koa-body": "^4.0.7",
+    "koa-cors": "^0.0.16",
+    "koa-respond": "^2.1.0",
+    "koa-router": "^7.4.0",
+    "mongoose": "^5.4.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Auriles/Projet-Web-Mobile-Master2-Backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Auriles/Projet-Web-Mobile-Master2-Backend/issues"
+  },
+  "homepage": "https://github.com/Auriles/Projet-Web-Mobile-Master2-Backend#readme"
+}
